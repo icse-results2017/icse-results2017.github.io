@@ -3,7 +3,8 @@ var $id = $("#id")
 var $res = $("#res")
 
 $res.modal();
-
+$("#revealed").modal();
+$("#revealed").modal('open');
 
 function showResults() {
 
